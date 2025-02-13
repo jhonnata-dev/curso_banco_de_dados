@@ -55,10 +55,20 @@ SELECT HOUR('12:30:34') AS Hora, MINUTE('12:30:34') AS Minutos, SECOND('12:30:34
 -- PERIOD_DIFF    
 SELECT period_diff(201912, 201903) AS 'Meses Restantes';
 
+-- QUARTER
+SELECT QUARTER('2019-03-17') AS 'Trimeste do ano';
 
+-- WEEK
+SELECT WEEK('2019-03-17') AS 'Semana do ano';
 
+-- WEEKDAY
+SELECT WEEKDAY('2019-03-17') AS 'Dia da semana';
 
+-- YEAR
+SELECT YEAR('2019-03-17') AS 'Ano';
 
+-- MONTH
+SELECT MONTH('2019-03-17') AS 'Mês';
 
-
-
+-- DAY
+SELECT DAY('2019-03-17') AS 'Dia';
